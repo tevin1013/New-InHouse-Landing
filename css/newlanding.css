@@ -874,7 +874,7 @@ background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 30%;
   flex-wrap: wrap;
 }
@@ -883,7 +883,7 @@ background-size: cover;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vw;
+  width: 25vw;
   min-width: 320px;
   height: 100%;
   margin: 3em 1em;
@@ -892,9 +892,9 @@ background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 28vw;
-  min-width: 320px;
-  height: 27em;
+  width: 25vw;
+  min-width: 300px;
+  height: 25em;
   flex-direction: column;
   margin: 0em 1em;
   border-radius: 6px;
@@ -927,7 +927,7 @@ background-size: cover;
   text-align: center;
   line-height: 1.5em;
   font-style: italic;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #154360;
 }
 #triangle-down {
@@ -951,19 +951,19 @@ background-size: cover;
 
  }
  .profile-pic-container h1{
-   font-size: 1.6em;
+   font-size: 1.5em;
    margin: .5em 0em;
    font-weight: lighter;
    color: #154360;
  }
  .profile-pic-container h2{
-   font-size: 1.6em;
+   font-size: 1.2em;
    font-weight: lighter;
    color: #0077B6;
  }
  .profile-pic{
-   width: 6em;
-   height: 6em;
+   width: 5em;
+   height: 5em;
    border: 4px solid #00A896;
    border-radius: 500px;
    -webkit-border-radius: 500px;
