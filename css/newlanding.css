@@ -1391,7 +1391,7 @@ background-size: cover;
   .burger {
     display: block;
     cursor: pointer;
-    z-index: 2000
+    z-index: 2000;
   }
   .top-section-bottom-left{
     margin-right: auto;
