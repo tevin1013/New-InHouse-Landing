@@ -842,14 +842,14 @@ background-size: cover;
   background-color: #E7E9EF;
   margin-top: 5%;
 }
-.right-video img {
+.right-video iframe {
   width: 90%;
-  height: auto;
+  height: 15em;
   margin-top: 5%;
 }
-.left-video img {
+.left-video iframe {
   width: 90%;
-  height: auto;
+  height: 15em;
   margin-top: 5%;
 }
 .testimonial-section{
