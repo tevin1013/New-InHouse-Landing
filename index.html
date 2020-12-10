@@ -16,10 +16,10 @@
         </div>
         <div class="main-nav-list">
             <ul class="navlinks">
-              <a href="#about-section" ><li class="main-nav-items">About</li></a>
-              <a href="#testimonials" ><li class="main-nav-items">Testimonials</li></a>
-              <a href="#contact-us" ><li class="main-nav-items">Contact us</li></a>
-              <a href="" ><li class="main-nav-items">Login</li></a>
+              <a href="#about-section" class="navhyperlinks"><li class="main-nav-items">About</li></a>
+              <a href="#testimonials" class="navhyperlinks"><li class="main-nav-items">Testimonials</li></a>
+              <a href="#contact-us" class="navhyperlinks"><li class="main-nav-items">Contact us</li></a>
+              <a href="" class="navhyperlinks"><li class="main-nav-items">Login</li></a>
               <a href="" class="join-now-hyperlink"><li id="join-now">Join now</li></a>
             </ul>
         </div>
@@ -406,11 +406,14 @@ for (i = 0; i < coll.length; i++) {
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.navlinks');
+  const navhyperlinks = document.querySelector('.navhyperlinks');
   const navLinks = document.querySelectorAll('.navlinks li');
+
 
   burger.addEventListener('click', () => {
     // toggle nav
     nav.classList.toggle('nav-active');
+    navhyperlinks.classList.toggle('navhyperlinks-active');
 
     // animate links
     navLinks.forEach((link, index) => {
